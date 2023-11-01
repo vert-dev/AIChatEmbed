@@ -187,10 +187,11 @@ textarea {
 .chatbot-host-bubble {
   color: var(--chatbot-host-bubble-color);
   background-color: #f7f8ff;
-  .table {
-    background-color: rgb(27, 31, 45);
-    color: rgb(255, 255, 255);
-  }
+}
+
+.chatbot-host-bubble > .table {
+  background-color: rgb(27, 31, 45);
+  color: rgb(255, 255, 255);
 }
 
 .chatbot-host-bubble > .bubble-typing {
